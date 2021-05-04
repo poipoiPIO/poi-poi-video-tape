@@ -23,11 +23,11 @@
   });
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/77574442" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
   </head>
+
   <body>
       <header>
-        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top mb-5">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Modern Video Cassette Saloon</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,7 +52,7 @@
       </header>
       
       <main>
-        <div class="container">
+        <div class="container mb-5">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -95,8 +95,8 @@
               </div>
         </div>
 
-        <div class="container text-post-container">
-            <div class="row gy-5">
+        <div class="container text-post-container bg-light mb-3">
+            <div class="row gy-3">
                 <div class="col-md-12">
                     <div class="single-text">
                             <h4 class="post-category" name="tape_news"><a href="#tape_news"> TapeNews</a></h4>
@@ -111,6 +111,7 @@
                 </div>
             </div>
         </div>
+        
 
         <div class="d-grid gap-6 mx-auto">
           <div class="container">
@@ -118,14 +119,14 @@
               <h3><a name="market"></a> Market:</h3>
             </div>
             <div class="row align-items-center">
-              <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="col-lg-4 col-md-6 col-ex-12">
                 <div class="card position-relative" style="width: 18rem; height: 32rem;">
                   <img src="images/VHSaudiovox.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h8 class="post-category">Video Deck</h6>
                     <h5 class="card-title">Audiovox sr-2</h5>
                     <p class="card-text">The God-like stuff to start your video-tape carier. This cheap model of good VHS tape-player can provide a good leasure for your!</p>
-                    <a href="#" class="btn btn-primary mb-3 position-absolute bottom-0">Buy it NOW!</a>
+                    <a href="#" class="btn btn-primary mb-3 position-absolute bottom-0" data-bs-toggle="modal" data-bs-target="#market-dialog">Buy it NOW!</a>
                   </div>
                 </div>
               </div>
@@ -136,7 +137,7 @@
                     <h8 class="post-category">Stuff for Video Deck</h6>
                     <h5 class="card-title">Archer COAX Switcher</h5>
                     <p class="card-text">Very Usefull thing to comunicate your video deck with TV or Screen </p>
-                    <a href="#" class="btn btn-primary mb-3 position-absolute bottom-0">Buy it NOW!</a>
+                    <a href="#" class="btn btn-primary mb-3 position-absolute bottom-0" data-bs-toggle="modal" data-bs-target="#market-dialog">Buy it NOW!</a>
                   </div>
                 </div>
               </div>
@@ -147,7 +148,7 @@
                     <h8 class="post-category">Video Deck</h6>
                     <h5 class="card-title">Jvc HR-D230EK</h5>
                     <p class="card-text">The Coolest and the Finest video-audio deck in our range. With this stuff you will get'in high and feel full volue of emotion. </p>
-                    <a href="#" class="btn btn-primary mb-3 position-absolute bottom-0">Buy it NOW!</a>
+                    <a href="#" class="btn btn-primary mb-3 position-absolute bottom-0" data-bs-toggle="modal" data-bs-target="#market-dialog">Buy it NOW!</a>
                   </div>
                 </div>
               </div>
@@ -158,7 +159,7 @@
                     <h8 class="post-category">Video Tape</h6>
                     <h5 class="card-title">Tales of Misbehavior</h5>
                     <p class="card-text">Cruel and violent adventure of an cute japanise girl </p>
-                    <a href="#" class="btn btn-primary mb-3 position-absolute bottom-0">Buy it NOW!</a>
+                    <a href="#" class="btn btn-primary mb-3 position-absolute bottom-0" data-bs-toggle="modal" data-bs-target="#market-dialog">Buy it NOW!</a>
                   </div>
                 </div>
               </div>
@@ -169,21 +170,43 @@
                     <h8 class="post-category">Video Tape</h6>
                     <h5 class="card-title">REI REI Missionary of Love</h5>
                     <p class="card-text">Kayuga, a Goddess of Love, looks at the moon from her residence in a limbo dimension between it and Earth.</p>
-                    <a href="#" class="btn btn-primary mb-3 position-absolute bottom-0">Buy it NOW!</a>
+                    <a href="#" class="btn btn-primary mb-3 position-absolute bottom-0" data-bs-toggle="modal" data-bs-target="#market-dialog">Buy it NOW!</a>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6 col-ex-12">
+              <div class="col-lg-4 col-sm-6 col-ex-12 offset-ex-3">
                 <div class="card position-relative" style="width: 18rem; height: 32rem;">
                   <img src="images/htapesprod2.jpg" class="card-img-top" alt="...">
                   <div class="card-body absolute-centre">
                     <h8 class="post-category">Video Tape</h6>
                     <h5 class="card-title">Go Nagai's New Cutey Honey</h5>
                     <p class="card-text">Strange days in the life of strange cosplay city.</p>
-                    <a href="#" class="btn btn-primary mb-3 position-absolute bottom-0">Buy it NOW!</a>
+                    <a href="#" class="btn btn-primary mb-3 position-absolute bottom-0" data-bs-toggle="modal" data-bs-target="#market-dialog">Buy it NOW!</a>
                   </div>
                 </div>
               </div>
+              <div class="modal fade" id="market-dialog" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="ModalLabel">Do you really wanna buy this thing?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container">
+                      <div class="rov">
+                        <div class="col">
+                          So if you are really wanna buy this thing, Than I should to upset you( it's only blank of real site and you can't to buy something here  
+                        </div>
+                      </div>
+                     </div>
+                    </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Okay :^(</button>
+                  </div>
+                </div>
+              </div>
+            </div>
             </div>
           </div>
 
@@ -202,8 +225,8 @@
                         <div class="col">
                           <img src="images/alertaiko.png" class="rounded-1" alt="Прядставь что тут Айко-тян">
                         </div>
-                        <div class="col">Я правда очень плох в JS, но очень надеюсь? что входе дальнейших наших занятий,
-                           я смогу сделать кнопку, открывающую дальнейший каталог, а не просто алерт))
+                        <div class="col">Я правда очень плох в JS, но очень надеюсь что входе дальнейших наших занятий,
+                           я смогу сделать кнопку, открывающую дальнейшие пункты каталога или отправляющую сообщение или чтото такое, а не просто алерт))
                         </div>
                       </div>
                      </div>
@@ -216,16 +239,68 @@
             </div>
           </div>
         </div>
+
+        <section name="form">
+          <div class="container mb-5 pb-5 pt-5 form-container bg-light">
+            <div class="row">
+              <div class="col text-center">
+               <h3>
+                Leave you mention here:
+               </h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-2">
+                  <input type="text" class="form-control" placeholder="Mention\Comment" id="textfield1" aria-label="Comment">     
+              </div>
+              <div class="col-md-1 col-ex-12 text-center">
+                <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#coment-section" onclick="clearFields()">Sent</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="coment-section" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="ModalLabel">Congrats! You are post something COOL</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="rov text-center">
+                      <div class="col">
+                        <img src="/images/comment-sectionalert.png" alt="cute neko girl helps grow">
+                      </div>
+                      <div class="col">
+                        Thank You a lot! <br> Your opinion helps us to grow!
+                      </div>
+                    </div>
+                   </div>
+                  </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
 
       <footer>
         <div class="container-fluid bg-light sticky-bottom">
          <span>
           <p class="text-center">Created by lilyAPE as site for informatics lessons</p>
-          <p class="text-end">03/05/2021</p>
+          <p class="text-center">03/05/2021</p>
          </span>
         </div>
       </footer>
+
+      <script type="text/javascript">
+        function clearFields() {
+            document.getElementById("textfield1").value=""
+        }
+        </script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
   </body>
 </html>

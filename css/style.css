@@ -21,16 +21,15 @@ main{
     font-family: 'Montserrat', sans-serif;
 }
 
+.text-post-container{
+border-radius: 15pt;
+}
 
 .carousel-caption{
         background-color: rgba(22, 22, 22, 0.555);
         border-radius: 20%;
         color: rgb(243, 242, 242);
 }
- .container{
-     margin-bottom: 3%;
-     margin-top: 3%;
- }
 
 a{
     color: #b4ad9e;
@@ -45,3 +44,14 @@ a:hover{
     margin-right: 24px;
 }
 
+.form-container{
+    border-radius: 15pt;
+}
+
+.form-container .form-control{
+    margin-right: 0%;
+}
+
+.form-container .btn{
+    margin: 0%;
+}
